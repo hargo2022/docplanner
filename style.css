@@ -1,61 +1,85 @@
-.image1{
+.image1 {
 
-width: 268px;
-height: 33px;
+    width: 268px;
+    height: 33px;
 }
 
-.topbar{
-   display: flex;
-   justify-content: space-between;
-}
-ul{
+.topbar {
     display: flex;
-   list-style: none; 
+    justify-content: space-between;
 }
-li{
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
     margin: 5px;
 }
-.logo2{
-   width: 60px;
-   margin: auto;
 
+.logo2 {
+    width: 60px;
+    margin: auto;
+    
 }
-html{
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 200px;
     margin-right: 200px;
-   
-}
-.parag{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 12.8px 0px;
+
 }
 
-.parag1.parag2{
+.parag-div {
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 12.8px 0px;
 }
-h1{
+
+.parag {
+    color: gray;
+    padding: 26px;
+}
+
+h1 {
     text-align: center;
-   font-family: Arial,sans-serif;
-   font-weight: 300;
-   font-size: 2.125rem;
-   color: #00b39b;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #00b39b;
 }
-p{
+
+p {
     justify-content: ;
 }
-.block1{
-    display:flex;
-    justify-content: space-between;
-  
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
 }
-.block1-1{
-    background-color: #00ccb1;
+
+.card {
+    color: white;
     border-radius: 10px;
-    padding: 2em 2em 0;
-    overflow: hidden;
+    padding: 16px;
     height: 345px;
-    flex-direction: column;
-    justify-content: space-between
+    width: 260px;
+}
+
+.card-1 {
+    background-color: #00ccb1;
+}
+
+.card-2 {
+    background-color: #3d83df;
+}
+
+.card-3 {
+    background-color: #1b2734;
+}
+
+.card .top {
+    margin-bottom: 132px;
 }
